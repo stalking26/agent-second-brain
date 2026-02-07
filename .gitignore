@@ -1,26 +1,14 @@
-# Environment files (ВАЖНО: секреты!)
-.env
-.env.local
-.env.*.local
-
-# Python
+# Игнорируем системные файлы
 __pycache__/
-*.py[cod]
-*$py.class
-.venv/
+*.pyc
 venv/
-.Python
+.env
 
-# Node
-node_modules/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
+# Игнорируем медиа-файлы
+*.mp3
+*.ogg
+*.wav
+*.m4a
+*.mp4
+downloads/
+media/
