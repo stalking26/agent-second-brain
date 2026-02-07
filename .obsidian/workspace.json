@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_HOME.md",
+                "file": "vault/daily/2026-02-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000_HOME"
+              "title": "2026-02-14"
             }
           }
         ]
@@ -196,15 +196,15 @@
   },
   "active": "09a44bb7a307c923",
   "lastOpenFiles": [
-    "README.md",
+    "vault/daily/2026-02-07.md",
     "000_HOME.md",
+    "README.md",
     "Без названия.md",
     "vault/daily/2026-02-19.md",
     "99_Archive",
     "20_Areas",
     "10_Projects",
     "00_Inbox",
-    "vault/daily/2026-02-07.md",
     "vault/daily/2026-02-14.md",
     "vault/daily/2026-02-06.md"
   ]
