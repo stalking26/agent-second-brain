@@ -37,8 +37,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,8 +220,9 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f068a53f4b0f2a7f",
+  "active": "a5c3bcc4a63a6587",
   "lastOpenFiles": [
+    "README.md",
     "vault/goals/1-yearly-2025.md",
     "vault/goals/0-vision-3y.md",
     "vault/daily/2026-02-08.md",
@@ -245,7 +245,6 @@
     "vault/attachments/2026-02-08/img-031519.jpg",
     "vault/attachments/2026-02-08/img-031220.jpg",
     "vault/attachments/2026-02-08",
-    "README.md",
     "Без названия.md",
     "99_Archive",
     "20_Areas",
