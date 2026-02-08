@@ -2,107 +2,33 @@
 type: vision
 horizon: 3-years
 period: 2025-2027
-updated: YYYY-MM-DD
+updated: 2026-02-08
 ---
 
 # Vision 2025-2027
 
 ## Life Mission
 
-<!-- Your life direction in one sentence -->
-<!-- Example: "Build meaningful technology while maintaining balance across health, relationships, and personal growth." -->
+Быть Архитектором и Исследователем, создающим автономные миры и системы.
 
 ---
 
 ## Life Areas
 
 ### Career & Business
-
 **3-Year Vision:**
-<!-- Where do you want to be professionally in 3 years? -->
+Владелец успешной «Лаборатории AI», выпускающей востребованные продукты для HR и бизнеса. Система работает автономно.
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Health & Energy
-
-**3-Year Vision:**
-<!-- What does your ideal health look like? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Relationships & Family
-
-**3-Year Vision:**
-<!-- How do you want your relationships to evolve? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Personal Growth
-
-**3-Year Vision:**
-<!-- What skills, habits, or mindset changes do you want? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
+- [ ] Запуск и масштабирование «HR-Шлюза».
+- [ ] Формирование команды единомышленников в Лаборатории.
+- [ ] Продажа ИИ-решений (ассессмент) как готового продукта.
 
 ### Financial
-
 **3-Year Vision:**
-<!-- What does financial security look like for you? -->
+Полная финансовая независимость, позволяющая обеспечивать «Экспедиционную Автономию».
 
 **Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-### Creativity & Joy
-
-**3-Year Vision:**
-<!-- What brings you joy? How will you nurture it? -->
-
-**Key Milestones:**
-- [ ] Milestone 1
-- [ ] Milestone 2
-- [ ] Milestone 3
-
----
-
-## Quarterly Review Questions
-
-1. Which goals still align with my values?
-2. What has changed that affects these goals?
-3. What am I willing to sacrifice to achieve these?
-4. Who can help me?
-
----
-
-## Links
-
-- [[1-yearly-2025]] - This year's goals
-- [[2-monthly]] - Current month focus
-- [[3-weekly]] - This week's plan
-
----
-
-*Next Review: Q1 2025*
+- [ ] Доход от 5000 BYN в месяц и выше.
+- [ ] Оплата и полная комплектация «комплекта свободы» для экспедиций.
+- [ ] Сформированный резерв на здоровье (в т.ч. 20 000 BYN на стоматологию).

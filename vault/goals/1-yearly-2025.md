@@ -1,107 +1,29 @@
 ---
 type: yearly
-period: 2025
-updated: YYYY-MM-DD
+period: 2026
+updated: 2026-02-08
 ---
 
-# Goals 2025
+# Goals 2026
 
 ## Annual Theme
-
-<!-- One word or phrase that defines this year -->
-<!-- Example: "Foundation", "Growth", "Balance" -->
+«Лаборатория и Автономия»
 
 ---
 
 ## Career & Business
-
-### Goal 1: [Your Goal]
-<!-- What do you want to achieve professionally? -->
-
+### Goal 1: Запуск «Лаборатории AI»
 **Success Metrics:**
-- [ ] Metric 1
-- [ ] Metric 2
+- [ ] Проведены тесты методологий оценки персонала с помощью ИИ.
+- [ ] Сформирован продукт «AI-аудит персонала».
 
-**Quarterly Milestones:**
-- Q1: [milestone]
-- Q2: [milestone]
-- Q3: [milestone]
-- Q4: [milestone]
-
----
-
-## Health & Energy
-
-### Goal 1: [Your Goal]
-<!-- What health habits do you want to build? -->
-
-**Success Metrics:**
-- [ ] Metric 1
-- [ ] Metric 2
-
----
-
-## Relationships
-
-### Goal 1: [Your Goal]
-<!-- How do you want to improve your relationships? -->
-
-**Success Metrics:**
-- [ ] Metric 1
-- [ ] Metric 2
-
----
-
-## Personal Growth
-
-### Goal 1: [Your Goal]
-<!-- What skills or habits do you want to develop? -->
-
-**Success Metrics:**
-- [ ] Metric 1
-- [ ] Metric 2
+**Quarterly Milestones (Q1):**
+- Вербовка участников и создание «скелета» HR-бота.
 
 ---
 
 ## Financial
-
-### Goal 1: [Your Goal]
-<!-- What financial milestones do you want to reach? -->
-
+### Goal 1: Рост личного дохода
 **Success Metrics:**
-- [ ] Metric 1
-- [ ] Metric 2
-
----
-
-## Progress Dashboard
-
-| Area | Goal | Progress | Status |
-|------|------|----------|--------|
-| Career | [goal] | 0% | --- |
-| Health | [goal] | 0% | --- |
-| Relationships | [goal] | 0% | --- |
-| Growth | [goal] | 0% | --- |
-| Financial | [goal] | 0% | --- |
-
----
-
-## Monthly Review Log
-
-| Month | Key Wins | Adjustments |
-|-------|----------|-------------|
-| Jan | | |
-| Feb | | |
-| Mar | | |
-
----
-
-## Links
-
-- [[0-vision-3y]] - 3-year vision
-- [[2-monthly]] - Current month focus
-- [[3-weekly]] - This week's plan
-
----
-
-*Next Review: End of January*
+- [ ] Стабильный доход 5000 BYN/мес (рост с текущих 2000 BYN).
+- [ ] Продажа ботов по ассессменту за $200/ед.
