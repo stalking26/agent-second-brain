@@ -37,8 +37,7 @@
               "title": "2026-02-08"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,13 +210,13 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "baa59f8b68b77854",
+  "active": "a5c3bcc4a63a6587",
   "lastOpenFiles": [
+    "vault/daily/2026-02-08.md",
+    "000_HOME.md",
     "vault/daily/2026-02-07.md",
     "vault/daily/2026-02-06.md",
-    "vault/daily/2026-02-08.md",
     "vault/daily/2026-02-14.md",
-    "000_HOME.md",
     "README.md",
     "Без названия.md",
     "vault/daily/2026-02-19.md",
