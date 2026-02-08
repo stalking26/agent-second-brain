@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "000_HOME"
             }
+          },
+          {
+            "id": "f068a53f4b0f2a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/daily/2026-02-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-02-08"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +221,7 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "c0bb7e51f3ce7534",
+  "active": "f068a53f4b0f2a7f",
   "lastOpenFiles": [
     "000_HOME.md",
     "vault/MEMORY.md",
