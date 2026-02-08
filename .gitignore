@@ -5,6 +5,7 @@
 *.wav
 *.m4a
 *.mp4
+<<<<<<< HEAD
 *.avi
 *.mov
 *.mkv
@@ -28,3 +29,8 @@ venv/
 # Системные
 .DS_Store
 Thumbs.db
+=======
+downloads/
+media/
+.env
+>>>>>>> 6435fdb4cd584a86e41e61dc5e38a33f2f94c6dc
