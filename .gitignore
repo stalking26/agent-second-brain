@@ -1,15 +1,36 @@
-# Игнорируем системные файлы
-__pycache__/
-*.pyc
-venv/
-.env
-
-# Игнорируем медиа-файлы
+# Тяжёлые файлы (не загружать в GitHub)
 *.mp3
 *.ogg
+*.oga
 *.wav
 *.m4a
 *.mp4
+<<<<<<< HEAD
+*.avi
+*.mov
+*.mkv
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# Файлы Obsidian
+.obsidian/workspace*
+.obsidian/app.json
+.trash/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Системные
+.DS_Store
+Thumbs.db
+=======
 downloads/
 media/
 .env
+>>>>>>> 6435fdb4cd584a86e41e61dc5e38a33f2f94c6dc
