@@ -37,7 +37,8 @@
               "title": "2026-02-08"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,9 +191,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "dd6cefb482c94b3f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -210,15 +221,15 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "a5c3bcc4a63a6587",
+  "active": "dd6cefb482c94b3f",
   "lastOpenFiles": [
+    "000_HOME.md",
     "vault/attachments/2026-02-08/img-045129.jpg",
     "vault/attachments/2026-02-08/img-031829.jpg",
     "vault/attachments/2026-02-08/img-031519.jpg",
     "vault/attachments/2026-02-08/img-031220.jpg",
     "vault/attachments/2026-02-08",
     "vault/daily/2026-02-08.md",
-    "000_HOME.md",
     "vault/daily/2026-02-07.md",
     "vault/daily/2026-02-06.md",
     "vault/daily/2026-02-14.md",
