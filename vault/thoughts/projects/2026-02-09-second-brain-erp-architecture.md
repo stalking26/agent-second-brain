@@ -37,5 +37,6 @@ related:
 3. Frontend (TWA) — панель: расписание + чаты (Streamlit или React)
 
 ## Related
+- [[thoughts/projects/2026-02-09-consultant-workbench]] — Рабочее Место Эксперта
 - [[thoughts/projects/2026-02-08-telegram-bot-security-app]] — admin panel
 - [[goals/2-monthly]] — HR-бот + Лаборатория
