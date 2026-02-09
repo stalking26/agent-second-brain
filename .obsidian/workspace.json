@@ -24,21 +24,7 @@
             }
           },
           {
-            "id": "f068a53f4b0f2a7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "8d11a174bd083566",
+            "id": "e1f31a54d8bd7cea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,6 +35,20 @@
               },
               "icon": "lucide-file",
               "title": "2026-02-08"
+            }
+          },
+          {
+            "id": "6299f402fde5c108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/daily/2026-02-09.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-02-09"
             }
           }
         ],
@@ -235,18 +235,25 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "8d11a174bd083566",
+  "active": "6299f402fde5c108",
   "lastOpenFiles": [
-    "README.md",
-    "000_HOME.md",
+    "conflict-files-obsidian-git.md",
     "vault/daily/2026-02-08.md",
+    "vault/templates/daily-template.md",
+    "vault/thoughts/learnings/2026-02-08-openclaw-alternatives.md",
+    "vault/thoughts/learnings/2026-02-08-notebooklm-extensions-update.md",
+    "vault/MEMORY.md",
+    "000_HOME.md",
+    "README.md",
+    "vault/daily/2026-02-09.md",
+    "vault/thoughts/reflections/2026-02-08-second-brain-architecture.md",
+    "vault/thoughts/reflections/2026-02-08-core-expertise-insight.md",
+    "vault/thoughts/projects/2026-02-08-telegram-bot-security-app.md",
     "vault/goals/1-yearly-2025.md",
     "vault/goals/0-vision-3y.md",
     "vault/daily/2026-02-14.md",
     "vault/daily/2026-02-06.md",
     "vault/daily/2026-02-07.md",
-    "vault/MEMORY.md",
-    "vault/templates/daily-template.md",
     "vault/MOC/MOC-weekly.md",
     "vault/MOC/MOC-reflections.md",
     "vault/MOC/MOC-projects.md",
