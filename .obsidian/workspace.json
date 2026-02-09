@@ -51,7 +51,8 @@
               "title": "2026-02-08"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -234,11 +235,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "a5c3bcc4a63a6587",
+  "active": "8d11a174bd083566",
   "lastOpenFiles": [
-    "vault/daily/2026-02-08.md",
-    "000_HOME.md",
     "README.md",
+    "000_HOME.md",
+    "vault/daily/2026-02-08.md",
     "vault/goals/1-yearly-2025.md",
     "vault/goals/0-vision-3y.md",
     "vault/daily/2026-02-14.md",
