@@ -136,7 +136,7 @@ week: {year}-W{week:02d}
         if day is None:
             day = date.today()
 
-        daily_file = self.vault_path / "daily" / f"{day.isoformat()}.md"
+        daily_file = self.vault_path / "дневник" / f"{day.isoformat()}.md"
 
         if not daily_file.exists():
             logger.warning("No daily file for %s", day)
@@ -338,8 +338,8 @@ CRITICAL MCP RULE:
 - Если tool вернул ошибку — покажи ТОЧНУЮ ошибку в отчёте
 
 WORKFLOW:
-1. Собери данные за неделю (daily файлы в vault/daily/, completed tasks через MCP)
-2. Проанализируй прогресс по целям (goals/3-weekly.md)
+1. Собери данные за неделю (daily файлы в vault/дневник/, completed tasks через MCP)
+2. Проанализируй прогресс по целям (цели/3-неделя.md)
 3. Определи победы и вызовы
 4. Сгенерируй HTML отчёт
 

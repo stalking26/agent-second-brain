@@ -34,17 +34,17 @@ class Settings(BaseSettings):
     @property
     def daily_path(self) -> Path:
         """Path to daily notes directory."""
-        return self.vault_path / "daily"
+        return self.vault_path / "дневник"
 
     @property
     def attachments_path(self) -> Path:
         """Path to attachments directory."""
-        return self.vault_path / "attachments"
+        return self.vault_path / "вложения"
 
     @property
     def thoughts_path(self) -> Path:
         """Path to thoughts directory."""
-        return self.vault_path / "thoughts"
+        return self.vault_path / "мысли"
 
 
 def get_settings() -> Settings:

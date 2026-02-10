@@ -9,8 +9,8 @@ class VaultStorage:
 
     def __init__(self, vault_path: Path) -> None:
         self.vault_path = Path(vault_path)
-        self.daily_path = self.vault_path / "daily"
-        self.attachments_path = self.vault_path / "attachments"
+        self.daily_path = self.vault_path / "дневник"
+        self.attachments_path = self.vault_path / "вложения"
 
     def _ensure_dirs(self) -> None:
         """Ensure required directories exist."""
@@ -73,7 +73,7 @@ class VaultStorage:
             extension: File extension
 
         Returns:
-            Relative path for Obsidian embed: attachments/YYYY-MM-DD/img-HHMMSS.ext
+            Relative path for Obsidian embed: вложения/YYYY-MM-DD/img-HHMMSS.ext
         """
         dir_path = self.get_attachments_dir(day)
         time_str = timestamp.strftime("%H%M%S")
@@ -82,4 +82,4 @@ class VaultStorage:
 
         file_path.write_bytes(data)
 
-        return f"attachments/{day.isoformat()}/{filename}"
+        return f"вложения/{day.isoformat()}/{filename}"

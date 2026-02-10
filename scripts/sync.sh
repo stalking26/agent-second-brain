@@ -46,7 +46,7 @@ if [ $PULL_STATUS -ne 0 ]; then
                     # Session files: keep local version (has latest data)
                     git checkout --ours "$f"
                     ;;
-                vault/daily/*)
+                vault/дневник/*)
                     # Daily notes: keep local version (has latest entries)
                     git checkout --ours "$f"
                     ;;
