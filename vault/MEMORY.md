@@ -1,75 +1,55 @@
-# Long-term Memory
+# Долговременная память
 
-Curated knowledge that persists across sessions. Layer 2 of Clawdbot memory architecture.
+Знания, которые сохраняются между сессиями. Слой 2 архитектуры памяти d-brain.
 
-## User Profile
+## Профиль
 
-| Field | Value |
-|-------|-------|
-| Name | [Your name] |
-| Timezone | [Your timezone, e.g., UTC+5] |
-| Location | [City/Country] |
-| Primary language | [e.g., Russian/English] |
+| Поле | Значение |
+|------|----------|
+| Имя | Андрей |
+| Часовой пояс | Europe/Minsk (UTC+3) |
+| Город | Минск, Беларусь |
+| Язык | Русский (основной), English (tech) |
 
-## Preferences
+## Настройки
 
-### Tech Stack
-- Languages: [e.g., Python, TypeScript]
-- Frameworks: [e.g., React, FastAPI]
-- Tools: [e.g., Cursor, Claude Code]
+### Технологии
+- Языки: Python, TypeScript
+- Инструменты: Claude Code, Obsidian, Telegram
+- Платформа: Linux
 
-### Communication Style
-- Preferred response language: [Russian/English/Mixed]
-- Detail level: [Brief/Detailed]
-- Code comments: [Minimal/Verbose]
+### Стиль общения
+- Язык ответов: русский
+- Уровень деталей: кратко, по делу
+- Стиль: прямота, ясность, конкретика
 
-### Habits
-- Morning routine: [if relevant]
-- Work hours: [e.g., 10:00-19:00]
-- Planning cadence: [weekly/daily]
+## Ключевые решения
 
-## Key Decisions
+| Дата | Решение | Контекст |
+|------|---------|----------|
+| 2026-02-10 | Git sync через merge (не rebase) | Стабильность синхронизации |
+| 2026-02-10 | Мульти-ролевой бот Stalker Media | Директор/маркетолог/HR/ассистент |
+| 2026-02-10 | Рубрики vault на русском | Удобство чтения |
+| 2026-02-08 | 4 process goals (recurring) | Привязка к целям |
 
-| Date | Decision | Context |
-|------|----------|---------|
-| YYYY-MM-DD | Example: Use uv instead of pip | Better dependency management |
+## Активный контекст
 
-## Active Context
+### ONE Big Thing (W07)
+- [ ] Запуск процесса вербовки в Лабораторию AI
 
-### ONE Big Thing (This Week)
-<!-- From goals/3-weekly.md -->
-- [ ] [Current week's main focus]
+### Горячие проекты
+1. HR-бот (скелет) — Приоритет 2 месяца
+2. Stalker Media мульти-бот — директор/маркетолог/HR
+3. Telegram bot security — админка, аналитика
+4. Платформа Эврика — исследование
 
-### Hot Projects
-1. [Project name] — [status/next action]
+## Быстрые ссылки
 
-### Pipeline/Leads
-<!-- If applicable -->
-- [Lead name] — [status]
-
-## Key People
-
-| Name | Role | Contact | Notes |
-|------|------|---------|-------|
-| [Name] | [Role] | [Telegram/Email] | [Context] |
-
-## Learnings
-
-### What Worked
-- [Pattern/approach that was successful]
-
-### What Didn't Work
-- [Anti-pattern to avoid]
-
-### Rules to Remember
-- [Important rule discovered during work]
-
-## Quick Links
-
-- [[goals/3-weekly]] — Weekly focus
-- [[goals/2-monthly]] — Monthly priorities
-- [[MOC/index]] — Maps of Content
+- [[цели/3-неделя]] — Фокус недели
+- [[цели/2-месяц]] — Приоритеты месяца
+- [[карта/карта-проекты]] — Карта проектов
+- [[карта/карта-находки]] — Карта находок
 
 ---
 
-*Last updated: YYYY-MM-DD*
+*Обновлено: 2026-02-10*
