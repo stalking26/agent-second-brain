@@ -6,17 +6,17 @@ Before processing daily entries:
 
 1. **Read current focus:**
    ```
-   Read goals/3-weekly.md → Extract ONE Big Thing
+   Read цели/3-неделя.md → Extract ONE Big Thing
    ```
 
 2. **Read yearly goals:**
    ```
-   Read goals/1-yearly-2025.md → Know active goals by area
+   Read цели/1-год-2026.md → Know active goals by area
    ```
 
 3. **Check monthly priorities:**
    ```
-   Read goals/2-monthly.md → Top 3 priorities
+   Read цели/2-месяц.md → Top 3 priorities
    ```
 
 ## Goal Alignment
@@ -48,14 +48,14 @@ If task aligns with goals, consider priority bump:
 
 ## Saving Thoughts
 
-When saving to thoughts/:
+When saving to мысли/:
 
 1. **Check goal relevance:**
-   - Scan goals/1-yearly-2025.md for matching areas
+   - Scan цели/1-год-2026.md for matching areas
    - If matches → add link in frontmatter:
      ```yaml
      related:
-       - "[[goals/1-yearly-2025#Career & Business]]"
+       - "[[цели/1-год-2026#Career & Business]]"
      ```
 
 2. **Tag with goal area:**
@@ -90,7 +90,7 @@ Add to report:
 
 ## Goal File Parsing
 
-### 3-weekly.md — Find ONE Big Thing
+### 3-неделя.md — Find ONE Big Thing
 
 Look for pattern:
 ```markdown
@@ -98,7 +98,7 @@ Look for pattern:
 > [THE ONE THING]
 ```
 
-### 1-yearly-2025.md — Find Active Goals
+### 1-год-2026.md — Find Active Goals
 
 Look for tables:
 ```markdown
@@ -107,7 +107,7 @@ Look for tables:
 | Goal name | X% | 🟡 |
 ```
 
-### 2-monthly.md — Find Top 3
+### 2-месяц.md — Find Top 3
 
 Look for section:
 ```markdown

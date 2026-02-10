@@ -7,9 +7,9 @@ Voice-first personal assistant for capturing thoughts and managing tasks via Tel
 **Before doing anything else, read these files in order:**
 
 1. `vault/MEMORY.md` — curated long-term memory (preferences, decisions, context)
-2. `vault/daily/YYYY-MM-DD.md` — today's entries
-3. `vault/daily/YYYY-MM-DD.md` — yesterday's entries (for continuity)
-4. `vault/goals/3-weekly.md` — this week's ONE Big Thing
+2. `vault/дневник/YYYY-MM-DD.md` — today's entries
+3. `vault/дневник/YYYY-MM-DD.md` — yesterday's entries (for continuity)
+4. `vault/цели/3-неделя.md` — this week's ONE Big Thing
 
 **Don't ask permission, just do it.** This ensures context continuity across sessions.
 
@@ -43,24 +43,24 @@ Help user stay aligned with goals, capture valuable insights, and maintain clari
 
 | Folder | Purpose |
 |--------|---------|
-| `daily/` | Raw daily entries (YYYY-MM-DD.md) |
-| `goals/` | Goal cascade (3y → yearly → monthly → weekly) |
-| `thoughts/` | Processed notes by category |
-| `MOC/` | Maps of Content indexes |
-| `attachments/` | Photos by date |
+| `дневник/` | Raw daily entries (YYYY-MM-DD.md) |
+| `цели/` | Goal cascade (3y → yearly → monthly → weekly) |
+| `мысли/` | Processed notes by category |
+| `карта/` | Maps of Content indexes |
+| `вложения/` | Photos by date |
 
 ## Current Focus
 
-See [[goals/3-weekly]] for this week's ONE Big Thing.
-See [[goals/2-monthly]] for monthly priorities.
+See [[цели/3-неделя]] for this week's ONE Big Thing.
+See [[цели/2-месяц]] for monthly priorities.
 
 ## Goals Hierarchy
 
 ```
-goals/0-vision-3y.md    → 3-year vision by life areas
-goals/1-yearly-2025.md  → Annual goals + quarterly breakdown
-goals/2-monthly.md      → Current month's top 3 priorities
-goals/3-weekly.md       → This week's focus + ONE Big Thing
+цели/0-видение-3г.md    → 3-year vision by life areas
+цели/1-год-2026.md      → Annual goals + quarterly breakdown
+цели/2-месяц.md         → Current month's top 3 priorities
+цели/3-неделя.md        → This week's focus + ONE Big Thing
 ```
 
 ## Entry Format
@@ -77,11 +77,11 @@ Types: `[voice]`, `[text]`, `[forward from: Name]`, `[photo]`
 Run daily processing via `/process` command or automatically at 21:00.
 
 ### Process Flow:
-1. Read goals/ → understand priorities
+1. Read цели/ → understand priorities
 2. Check Todoist → know workload
-3. Read daily/ → classify entries
+3. Read дневник/ → classify entries
 4. Create tasks → aligned with goals
-5. Save thoughts → build [[links]]
+5. Save мысли → build [[links]]
 6. Generate HTML report → send to Telegram
 
 ## Available Skills
@@ -185,7 +185,7 @@ When invoked via /do, Claude receives arbitrary user requests. Common patterns:
 
 **Filesystem:**
 - Read/write vault files
-- Access daily/, goals/, thoughts/
+- Access дневник/, цели/, мысли/
 
 ## Customization
 

@@ -18,7 +18,7 @@ Analyzes the past week and generates comprehensive digest report.
 
 1. **Read all daily files for the week:**
    ```
-   daily/YYYY-MM-DD.md (7 files)
+   дневник/YYYY-MM-DD.md (7 files)
    ```
 
 2. **Get completed tasks from Todoist:**
@@ -30,9 +30,9 @@ Analyzes the past week and generates comprehensive digest report.
 
 3. **Get current goals:**
    ```
-   Read goals/1-yearly-2025.md
-   Read goals/2-monthly.md
-   Read goals/3-weekly.md
+   Read цели/1-год-2026.md
+   Read цели/2-месяц.md
+   Read цели/3-неделя.md
    ```
 
 ### Step 2: Analyze Progress
@@ -124,15 +124,15 @@ After generating digest:
 
 1. **Archive current weekly:**
    ```
-   Rename goals/3-weekly.md → goals/archive/3-weekly-{WEEK}.md
+   Rename цели/3-неделя.md → цели/archive/3-неделя-{WEEK}.md
    ```
 
 2. **Create new weekly:**
    ```
-   Create goals/3-weekly.md with new ONE Big Thing
+   Create цели/3-неделя.md with new ONE Big Thing
    ```
 
 3. **Update monthly if needed:**
    ```
-   Update progress in goals/2-monthly.md
+   Update progress in цели/2-месяц.md
    ```

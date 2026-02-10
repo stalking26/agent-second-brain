@@ -72,10 +72,10 @@ mcp__todoist__find-tasks-by-date — Check workload
 
 ## Processing Flow
 
-1. Load context — Read goals/3-weekly.md (ONE Big Thing), goals/2-monthly.md
+1. Load context — Read цели/3-неделя.md (ONE Big Thing), цели/2-месяц.md
 2. Check workload — find-tasks-by-date for 7 days
 3. **Check process goals** — find-tasks with labels: ["process-goal"]
-4. Read daily — daily/YYYY-MM-DD.md
+4. Read daily — дневник/YYYY-MM-DD.md
 5. Process entries — Classify → task or thought
 6. Build links — Connect notes with [[wiki-links]]
 7. **Log actions to daily** — append action log entry
@@ -90,13 +90,13 @@ mcp__todoist__find-tasks-by-date — Check workload
 Используй mcp__todoist__find-tasks с labels: ["process-goal"]
 
 ### 2. Если отсутствуют — создай
-Читай goals/ и генерируй process commitments:
+Читай цели/ и генерируй process commitments:
 
 | Goal Level | Source | Process Pattern |
 |------------|--------|-----------------|
-| Weekly ONE Big Thing | goals/3-weekly.md | 2h deep work ежедневно |
-| Monthly Top 3 | goals/2-monthly.md | 1 action/день на приоритет |
-| Yearly Focus | goals/1-yearly-*.md | 30 мин/день на стратегию |
+| Weekly ONE Big Thing | цели/3-неделя.md | 2h deep work ежедневно |
+| Monthly Top 3 | цели/2-месяц.md | 1 action/день на приоритет |
+| Yearly Focus | цели/1-год-*.md | 30 мин/день на стратегию |
 
 Создавай recurring tasks с label "process-goal" (max 5-7 активных).
 
@@ -111,9 +111,9 @@ mcp__todoist__find-tasks-by-date — Check workload
 
 See: references/process-goals.md for patterns and examples.
 
-## Logging to daily/ (Step 7)
+## Logging to дневник/ (Step 7)
 
-**После ЛЮБЫХ изменений в vault — СРАЗУ пиши в `daily/YYYY-MM-DD.md`:**
+**После ЛЮБЫХ изменений в vault — СРАЗУ пиши в `дневник/YYYY-MM-DD.md`:**
 
 Format:
 ```
@@ -125,7 +125,7 @@ Format:
 ```
 
 What to log:
-- Files created in thoughts/
+- Files created in мысли/
 - Tasks created in Todoist (with task ID)
 - Links built between notes
 
@@ -139,7 +139,7 @@ Daily processing complete
 - "Prepare proposal" (id: 8501234568, p2, friday)
 
 **Saved thoughts:** 1
-- [[thoughts/ideas/product-launch|Product Launch]] — new idea
+- [[мысли/идеи/product-launch|Product Launch]] — new idea
 ```
 
 ## Evolve MEMORY.md (Step 8)
@@ -184,7 +184,7 @@ Types: [voice], [text], [forward from: Name], [photo]
 ## Classification
 
 task → Todoist (see references/todoist.md)
-idea/reflection/learning → thoughts/ (see references/classification.md)
+idea/reflection/learning → мысли/ (see references/classification.md)
 
 ## Priority Rules
 
@@ -195,10 +195,10 @@ p4 — Operational, no goal alignment
 
 ## Thought Categories
 
-💡 idea → thoughts/ideas/
-🪞 reflection → thoughts/reflections/
-🎯 project → thoughts/projects/
-📚 learning → thoughts/learnings/
+💡 idea → мысли/идеи/
+🪞 reflection → мысли/рефлексии/
+🎯 project → мысли/проекты/
+📚 learning → мысли/находки/
 
 ## HTML Report Template
 
