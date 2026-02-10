@@ -26,10 +26,10 @@ Read relevant MOC files:
 
 ```
 карта/
-├── карта-ideas.md
-├── карта-projects.md
-├── карта-learnings.md
-└── карта-reflections.md
+├── карта-идеи.md
+├── карта-проекты.md
+├── карта-находки.md
+└── карта-рефлексии.md
 ```
 
 Find related entries.
@@ -50,7 +50,7 @@ In the thought file, add:
 **In frontmatter:**
 ```yaml
 related:
-  - "[[мысли/ideas/2024-12-15-voice-agents.md]]"
+  - "[[мысли/идеи/2024-12-15-voice-agents.md]]"
   - "[[цели/1-год-2026#AI Development]]"
 ```
 
@@ -72,15 +72,15 @@ This connects to [[Voice Agents Architecture]] we explored earlier.
 Add new note to appropriate MOC:
 
 ```markdown
-# MOC: Ideas
+# Карта: Идеи
 
 ## Recent
-- [[мысли/ideas/2024-12-20-new-idea.md]] — Brief description
+- [[мысли/идеи/2024-12-20-new-idea.md]] — Brief description
 
 ## By Topic
 ### AI & Voice
-- [[мысли/ideas/2024-12-20-new-idea.md]]
-- [[мысли/ideas/2024-12-15-voice-agents.md]]
+- [[мысли/идеи/2024-12-20-new-idea.md]]
+- [[мысли/идеи/2024-12-15-voice-agents.md]]
 ```
 
 ### Step 6: Add Backlinks
@@ -123,7 +123,7 @@ New thought: "Новый инструмент X можно использова�
    - Grep "tool" in мысли/ → no results
 
 2. **Check MOC:**
-   - карта-learnings.md has relevant section
+   - карта-находки.md has relevant section
 
 3. **Goals:**
    - 1-год-2026.md has matching goal
@@ -131,14 +131,14 @@ New thought: "Новый инструмент X можно использова�
 4. **Create links:**
    ```yaml
    related:
-     - "[[мысли/ideas/related-note.md]]"
+     - "[[мысли/идеи/related-note.md]]"
      - "[[цели/1-год-2026#Your Goal]]"
    ```
 
-5. **Update карта-learnings.md:**
+5. **Update карта-находки.md:**
    ```markdown
    ### Your Category
-   - [[мысли/learnings/2024-12-20-new-learning.md]] — Description
+   - [[мысли/находки/2024-12-20-new-learning.md]] — Description
    ```
 
 6. **Report:**
@@ -152,10 +152,10 @@ New thought: "Новый инструмент X можно использова�
 A note is "orphan" if:
 - No incoming links from other notes
 - No related notes in frontmatter
-- Not listed in any MOC
+- Not listed in any карта
 
 Flag orphans for review:
 ```
 <b>⚠️ Изолированные заметки:</b>
-• [[мысли/ideas/orphan-note.md]]
+• [[мысли/идеи/orphan-note.md]]
 ```

@@ -1,0 +1,17 @@
+{
+  "userIgnoreFilters": [
+    "шаблоны/",
+    "вложения/",
+    "attachments/",
+    ".claude/",
+    ".claude-plugin/",
+    ".sessions/",
+    "daily/",
+    "blog/",
+    "MEMORY.md"
+  ],
+  "attachmentFolderPath": "вложения",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "мысли/находки",
+  "defaultViewMode": "preview"
+}

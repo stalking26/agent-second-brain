@@ -36,7 +36,7 @@ NO unsupported tags: div, span, br, p, table, tr, td
 📊 <b>Обработка за {DATE}</b>
 
 <b>🎯 Текущий фокус:</b>
-{ONE_BIG_THING from goals/3-weekly.md}
+{ONE_BIG_THING from цели/3-неделя.md}
 
 <b>📓 Сохранено мыслей:</b> {N}
 • {emoji} {title} → {category}/
@@ -68,8 +68,8 @@ NO unsupported tags: div, span, br, p, table, tr, td
 ## Section Rules
 
 ### Focus (🎯)
-Read from goals/3-weekly.md, find "ONE Big Thing" section.
-If not found: "Не задан — обновите goals/3-weekly.md"
+Read from цели/3-неделя.md, find "ONE Big Thing" section.
+If not found: "Не задан — обновите цели/3-неделя.md"
 
 ### Thoughts (📓)
 Count saved, list with category emoji:
@@ -95,7 +95,7 @@ Format: • [[Note A]] ↔ [[Note B]]
 Get tomorrow's tasks from Todoist, sort by priority, show top 3.
 
 ### Goals Progress (📈)
-Read goals/1-yearly-2026.md, show goals with recent activity.
+Read цели/1-год-2026.md, show goals with recent activity.
 Emojis: 🔴 0-25%, 🟡 26-50%, 🟢 51-75%, ✅ 76-100%
 
 ## Error Report
@@ -111,7 +111,7 @@ Emojis: 🔴 0-25%, 🟡 26-50%, 🟢 51-75%, ✅ 76-100%
 
 📭 <b>Нет записей для обработки</b>
 
-Файл <code>daily/{date}.md</code> пуст.
+Файл <code>дневник/{date}.md</code> пуст.
 
 <i>Добавьте записи в течение дня</i>
 
