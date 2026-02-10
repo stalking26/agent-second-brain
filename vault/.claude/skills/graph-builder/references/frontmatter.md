@@ -104,7 +104,7 @@ tags: [project, active]
 type: project
 status: active
 links:
-  - "[[goals/3-weekly]]"
-  - "[[MOC/Projects]]"
+  - "[[цели/3-неделя]]"
+  - "[[карта/Проекты]]"
 ---
 ```

@@ -153,7 +153,7 @@ Daily processing complete
 
 ### When NOT to update:
 - ❌ Daily trivia (meetings, calls without impact)
-- ❌ Temporary notes (stay in daily/)
+- ❌ Temporary notes (stay in дневник/)
 - ❌ Duplicates of what's already there
 
 ### How to update (evolve, not append):

@@ -4,61 +4,61 @@ Domains define the organizational structure of the vault. Each domain has specif
 
 ## Core Domains
 
-### daily/
+### дневник/
 **Purpose:** Daily journal entries, raw captures
 **Format:** `YYYY-MM-DD.md`
 **Linking:**
-- Outgoing to thoughts/ when content is processed
-- Outgoing to projects/ when project mentioned
-- Should reference MOCs for categorization
+- Outgoing to мысли/ when content is processed
+- Outgoing to проекты/ when project mentioned
+- Should reference карта for categorization
 
-### thoughts/
+### мысли/
 **Purpose:** Processed and refined ideas
 **Subdirectories:**
-- `ideas/` — Creative concepts, innovations
-- `reflections/` — Personal insights, lessons learned
-- `learnings/` — Knowledge captured from reading/experience
-- `projects/` — Project-specific notes
+- `идеи/` — Creative concepts, innovations
+- `рефлексии/` — Personal insights, lessons learned
+- `находки/` — Knowledge captured from reading/experience
+- `проекты/` — Project-specific notes
 
 **Linking:**
-- Incoming from daily/ (source entries)
-- Outgoing to MOC/ (categorization)
-- Cross-links within thoughts/ (related concepts)
+- Incoming from дневник/ (source entries)
+- Outgoing to карта/ (categorization)
+- Cross-links within мысли/ (related concepts)
 
-### goals/
+### цели/
 **Purpose:** Goal hierarchy and tracking
 **Files:**
-- `0-vision-3y.md` — Long-term vision
-- `1-yearly-YYYY.md` — Annual goals
-- `2-monthly.md` — Monthly priorities
-- `3-weekly.md` — Weekly focus
+- `0-видение-3г.md` — Long-term vision
+- `1-год-YYYY.md` — Annual goals
+- `2-месяц.md` — Monthly priorities
+- `3-неделя.md` — Weekly focus
 
 **Linking:**
-- Incoming from thoughts/ (ideas aligned with goals)
-- Incoming from daily/ (progress updates)
+- Incoming from мысли/ (ideas aligned with goals)
+- Incoming from дневник/ (progress updates)
 - Should be highly connected as navigation hubs
 
-### MOC/
+### карта/
 **Purpose:** Maps of Content — index pages
 **Linking:**
-- Incoming from all domains (everything should have a MOC)
-- Outgoing to related MOCs
+- Incoming from all domains (everything should have a карта)
+- Outgoing to related карта
 - Central navigation hubs
 
-### projects/
+### проекты/
 **Purpose:** Active project documentation
 **Linking:**
-- Incoming from daily/ (work logs)
-- Incoming from thoughts/ (related ideas)
-- Outgoing to goals/ (alignment)
+- Incoming from дневник/ (work logs)
+- Incoming from мысли/ (related ideas)
+- Outgoing to цели/ (alignment)
 
 ## Link Priority Rules
 
 When suggesting links, prioritize:
 
-1. **Orphan → MOC** — Every note should belong to a Map of Content
-2. **Daily → Thought** — Processed entries link to their refined notes
-3. **Thought → Goal** — Ideas should align with goals
+1. **Orphan → Карта** — Every note should belong to a Map of Content
+2. **Дневник → Мысль** — Processed entries link to their refined notes
+3. **Мысль → Цель** — Ideas should align with goals
 4. **Cross-domain** — Bridge related concepts across domains
 
 ## Custom Domains
@@ -78,5 +78,5 @@ Common patterns to detect for auto-linking:
 - `[[Note Name]]` — Existing wiki-links
 - `@mention` — People/contacts (if contacts domain exists)
 - `#tag` — Tags that may map to notes
-- Project names — Match against projects/ directory
-- Dates — Link to daily/ entries
+- Project names — Match against проекты/ directory
+- Dates — Link to дневник/ entries
