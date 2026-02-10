@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/мысли/проекты/2026-02-10-hr-telegram-channels.md",
+                "file": "vault/дневник/2026-02-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-10-hr-telegram-channels"
+              "title": "2026-02-10"
             }
           }
         ],
@@ -223,8 +223,18 @@
   },
   "active": "ca28b96a0f7465f2",
   "lastOpenFiles": [
-    "000_HOME.md",
+    "vault/дневник/2026-02-08.md",
+    "vault/карта/карта-идеи.md",
+    "vault/карта/карта-находки.md",
+    "vault/карта/карта-проекты.md",
+    "vault/карта/карта-рефлексии.md",
+    "vault/мысли/рефлексии/2026-02-08-second-brain-architecture.md",
+    "vault/мысли/рефлексии/2026-02-08-core-expertise-insight.md",
+    "vault/мысли/проекты/github-mining-obsidian-vaults.md",
+    "vault/мысли/проекты/2026-02-10-stalker-media-multi-role-bot.md",
     "vault/мысли/проекты/2026-02-10-hr-telegram-channels.md",
+    "vault/мысли/проекты/2026-02-10-hr-bot-promotion-strategy.md",
+    "000_HOME.md",
     "vault/мысли/находки/2026-02-10-hr-bot-market-positioning.md",
     "vault/мысли/проекты/2026-02-10-ai-hr-bot-competitor-analysis.md",
     "README.md",
@@ -236,19 +246,9 @@
     "vault/цели/2-месяц.md",
     "vault/цели/1-год-2026.md",
     "vault/цели/0-видение-3г.md",
-    "vault/мысли/рефлексии/2026-02-08-second-brain-architecture.md",
-    "vault/мысли/рефлексии/2026-02-08-core-expertise-insight.md",
-    "vault/мысли/проекты/github-mining-obsidian-vaults.md",
-    "vault/мысли/проекты/2026-02-10-stalker-media-multi-role-bot.md",
     "vault/мысли/проекты/2026-02-09-second-brain-erp-architecture.md",
     "vault/мысли/проекты/2026-02-09-consultant-workbench.md",
     "vault/мысли/проекты/2026-02-08-telegram-bot-security-app.md",
-    "vault/мысли/находки/2026-02-08-notebooklm-extensions-update.md",
-    "vault/карта/карта-рефлексии.md",
-    "vault/карта/карта-проекты.md",
-    "vault/карта/карта-неделя.md",
-    "vault/карта/карта-находки.md",
-    "vault/карта/карта-идеи.md",
     "vault/daily",
     "vault/вложения/2026-02-08/img-031220.jpg",
     "vault/вложения/2026-02-08/img-031829.jpg",
