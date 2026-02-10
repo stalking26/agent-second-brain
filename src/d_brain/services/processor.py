@@ -194,9 +194,22 @@ CRITICAL OUTPUT FORMAT:
             )
 
             if result.returncode != 0:
-                logger.error("Claude processing failed: %s", result.stderr)
+                stderr = result.stderr.strip() if result.stderr else ""
+                logger.error("Claude processing failed (exit code %d): %s", result.returncode, stderr)
+                
+                # Определяем тип ошибки
+                error_msg = "Claude processing failed"
+                if "timeout" in stderr.lower():
+                    error_msg = "Timeout - обработка слишком долгая"
+                elif "api" in stderr.lower() or "rate limit" in stderr.lower():
+                    error_msg = f"API Error: {stderr[:200]}"
+                elif "permission" in stderr.lower():
+                    error_msg = "Permission denied"
+                elif stderr:
+                    error_msg = f"Error: {stderr[:200]}"
+                
                 return {
-                    "error": result.stderr or "Claude processing failed",
+                    "error": error_msg,
                     "processed_entries": 0,
                 }
 
@@ -208,21 +221,21 @@ CRITICAL OUTPUT FORMAT:
             }
 
         except subprocess.TimeoutExpired:
-            logger.error("Claude processing timed out")
+            logger.error("Claude processing timed out after %d seconds", DEFAULT_TIMEOUT)
             return {
-                "error": "Processing timed out",
+                "error": f"Timeout - обработка превысила {DEFAULT_TIMEOUT // 60} минут",
                 "processed_entries": 0,
             }
         except FileNotFoundError:
             logger.error("Claude CLI not found")
             return {
-                "error": "Claude CLI not installed",
+                "error": "Claude CLI not installed (команда 'claude' не найдена)",
                 "processed_entries": 0,
             }
         except Exception as e:
             logger.exception("Unexpected error during processing")
             return {
-                "error": str(e),
+                "error": f"Unexpected error: {str(e)}",
                 "processed_entries": 0,
             }
 
@@ -298,9 +311,22 @@ EXECUTION:
             )
 
             if result.returncode != 0:
-                logger.error("Claude execution failed: %s", result.stderr)
+                stderr = result.stderr.strip() if result.stderr else ""
+                logger.error("Claude execution failed (exit code %d): %s", result.returncode, stderr)
+                
+                # Определяем тип ошибки для более понятного сообщения
+                error_msg = "Claude execution failed"
+                if "timeout" in stderr.lower():
+                    error_msg = "Timeout - запрос слишком долгий"
+                elif "api" in stderr.lower() or "rate limit" in stderr.lower():
+                    error_msg = f"API Error: {stderr[:200]}"
+                elif "permission" in stderr.lower():
+                    error_msg = "Permission denied"
+                elif stderr:
+                    error_msg = f"Error: {stderr[:200]}"
+                
                 return {
-                    "error": result.stderr or "Claude execution failed",
+                    "error": error_msg,
                     "processed_entries": 0,
                 }
 
@@ -310,14 +336,23 @@ EXECUTION:
             }
 
         except subprocess.TimeoutExpired:
-            logger.error("Claude execution timed out")
-            return {"error": "Execution timed out", "processed_entries": 0}
+            logger.error("Claude execution timed out after %d seconds", DEFAULT_TIMEOUT)
+            return {
+                "error": f"Timeout - выполнение превысило {DEFAULT_TIMEOUT // 60} минут",
+                "processed_entries": 0,
+            }
         except FileNotFoundError:
             logger.error("Claude CLI not found")
-            return {"error": "Claude CLI not installed", "processed_entries": 0}
+            return {
+                "error": "Claude CLI not installed (команда 'claude' не найдена)",
+                "processed_entries": 0,
+            }
         except Exception as e:
             logger.exception("Unexpected error during execution")
-            return {"error": str(e), "processed_entries": 0}
+            return {
+                "error": f"Unexpected error: {str(e)}",
+                "processed_entries": 0,
+            }
 
     def generate_weekly(self) -> dict[str, Any]:
         """Generate weekly digest with Claude.
@@ -374,9 +409,22 @@ CRITICAL OUTPUT FORMAT:
             )
 
             if result.returncode != 0:
-                logger.error("Weekly digest failed: %s", result.stderr)
+                stderr = result.stderr.strip() if result.stderr else ""
+                logger.error("Weekly digest failed (exit code %d): %s", result.returncode, stderr)
+                
+                # Определяем тип ошибки
+                error_msg = "Weekly digest failed"
+                if "timeout" in stderr.lower():
+                    error_msg = "Timeout - дайджест слишком долгий"
+                elif "api" in stderr.lower() or "rate limit" in stderr.lower():
+                    error_msg = f"API Error: {stderr[:200]}"
+                elif "permission" in stderr.lower():
+                    error_msg = "Permission denied"
+                elif stderr:
+                    error_msg = f"Error: {stderr[:200]}"
+                
                 return {
-                    "error": result.stderr or "Weekly digest failed",
+                    "error": error_msg,
                     "processed_entries": 0,
                 }
 
@@ -395,11 +443,20 @@ CRITICAL OUTPUT FORMAT:
             }
 
         except subprocess.TimeoutExpired:
-            logger.error("Weekly digest timed out")
-            return {"error": "Weekly digest timed out", "processed_entries": 0}
+            logger.error("Weekly digest timed out after %d seconds", DEFAULT_TIMEOUT)
+            return {
+                "error": f"Timeout - дайджест превысил {DEFAULT_TIMEOUT // 60} минут",
+                "processed_entries": 0,
+            }
         except FileNotFoundError:
             logger.error("Claude CLI not found")
-            return {"error": "Claude CLI not installed", "processed_entries": 0}
+            return {
+                "error": "Claude CLI not installed (команда 'claude' не найдена)",
+                "processed_entries": 0,
+            }
         except Exception as e:
             logger.exception("Unexpected error during weekly digest")
-            return {"error": str(e), "processed_entries": 0}
+            return {
+                "error": f"Unexpected error: {str(e)}",
+                "processed_entries": 0,
+            }
