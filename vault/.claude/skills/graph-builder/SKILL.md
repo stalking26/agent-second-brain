@@ -33,28 +33,28 @@ Total notes: 247
 Total links: 892
 Orphan notes: 12
 Most connected: [[MEMORY]] (47 links)
-Weakest domain: learnings/ (avg 1.2 links/note)
+Weakest domain: находки/ (avg 1.2 links/note)
 
 🔗 Suggested connections:
 • [[Project A]] ↔ [[Client X]] (mentioned 5x)
-• [[Idea B]] → [[MOC/Ideas]] (category match)
+• [[Idea B]] → [[карта/Идеи]] (category match)
 ```
 
 ## Domain Configuration
 
 Domains are configured in `references/domains.md`. Default structure:
 
-- **daily/** — Daily journal entries
-- **thoughts/** — Processed ideas, reflections, learnings
-- **goals/** — Goal cascade files
-- **MOC/** — Maps of Content (index pages)
-- **projects/** — Project notes
+- **дневник/** — Daily journal entries
+- **мысли/** — Processed ideas, reflections, learnings
+- **цели/** — Goal cascade files
+- **карта/** — Maps of Content (index pages)
+- **проекты/** — Project notes
 
 ## Link Building Strategy
 
 1. **Entity extraction** — Find mentions of existing notes
-2. **Category mapping** — Connect notes to relevant MOCs
-3. **Temporal links** — Link daily entries to related thoughts
+2. **Category mapping** — Connect notes to relevant карта
+3. **Temporal links** — Link дневник entries to related мысли
 4. **Cross-domain** — Bridge domains (project ↔ goal ↔ daily)
 
 ## Scripts

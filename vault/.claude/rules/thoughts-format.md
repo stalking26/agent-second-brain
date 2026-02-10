@@ -1,19 +1,19 @@
 ---
-paths: "thoughts/**/*.md"
+paths: "мысли/**/*.md"
 ---
 
 # Thoughts Format
 
-Rules for notes in `thoughts/` folder and its subfolders.
+Rules for notes in `мысли/` folder and its subfolders.
 
 ## Folder Structure
 
 ```
-thoughts/
-├── ideas/       # Creative ideas, concepts
-├── reflections/ # Personal reflections, lessons
-├── projects/    # Project-related notes
-└── learnings/   # Knowledge, discoveries
+мысли/
+├── идеи/       # Creative ideas, concepts
+├── рефлексии/  # Personal reflections, lessons
+├── проекты/    # Project-related notes
+└── находки/    # Knowledge, discoveries
 ```
 
 ## File Naming
@@ -29,7 +29,7 @@ thoughts/
 date: 2024-12-20
 type: idea | reflection | project | learning
 tags: [relevant, tags]
-source: daily/2024-12-20.md
+source: дневник/2024-12-20.md
 related: []
 ---
 ```
@@ -51,7 +51,7 @@ Full content of the thought.
 
 ## Related
 - [[Link to related note]]
-- [[goals/1-yearly-2025#Section]]
+- [[цели/1-год-2026#Section]]
 ```
 
 ## Tags Convention
@@ -71,38 +71,38 @@ Use hierarchical tags:
 
 When saving a thought:
 
-1. **Search for related notes** in thoughts/
-2. **Check MOC indexes** for topic clusters
-3. **Link to relevant goals** in goals/
+1. **Search for related notes** in мысли/
+2. **Check карта/ indexes** for topic clusters
+3. **Link to relevant goals** in цели/
 4. **Add backlinks** to source daily note
 
 Example:
 ```markdown
-Extracted from [[daily/2024-12-20]].
-Related to [[Voice Agents]] and [[goals/1-yearly-2025#AI Development]].
+Extracted from [[дневник/2024-12-20]].
+Related to [[Voice Agents]] and [[цели/1-год-2026#AI Development]].
 ```
 
 ## Category Guidelines
 
-### ideas/
+### идеи/
 - Novel concepts, inventions
 - Business ideas
 - Creative solutions
 - "What if..." thoughts
 
-### reflections/
+### рефлексии/
 - Personal insights
 - Lessons learned
 - Emotional processing
 - Gratitude, wins
 
-### projects/
+### проекты/
 - Project-specific notes
 - Meeting notes
 - Status updates
 - Decisions made
 
-### learnings/
+### находки/
 - New knowledge
 - Book/article insights
 - Technical discoveries

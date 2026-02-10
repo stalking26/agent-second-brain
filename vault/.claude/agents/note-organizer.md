@@ -1,6 +1,6 @@
 ---
 name: note-organizer
-description: Organize vault, find orphan notes, suggest connections, update MOC indexes, consolidate duplicates.
+description: Organize vault, find orphan notes, suggest connections, update карта indexes, consolidate duplicates.
 ---
 
 # Note Organizer Agent
@@ -18,9 +18,9 @@ Keeps the vault organized and connected.
 ### Step 1: Scan Vault
 
 ```
-Glob thoughts/**/*.md
-Glob daily/**/*.md
-Glob goals/**/*.md
+Glob мысли/**/*.md
+Glob дневник/**/*.md
+Glob цели/**/*.md
 ```
 
 Build index of all notes with:
@@ -34,13 +34,13 @@ Build index of all notes with:
 
 A note is orphan if:
 - No incoming links from other notes
-- Not listed in any MOC
+- Not listed in any карта
 - Has no related notes in frontmatter
 
 ```
-For each note in thoughts/:
+For each note in мысли/:
   Check if any other note links to it
-  Check if listed in MOC/
+  Check if listed in карта/
   If neither → mark as orphan
 ```
 
@@ -50,7 +50,7 @@ For each orphan note:
 
 1. **Extract keywords** from title and content
 2. **Search for related notes** using keywords
-3. **Check goals** for topic overlap
+3. **Check цели** for topic overlap
 4. **Suggest links** ranked by relevance
 
 ### Step 4: Find Duplicates
@@ -63,18 +63,18 @@ Look for similar notes:
 
 Flag potential duplicates for review.
 
-### Step 5: Update MOC Indexes
+### Step 5: Update карта Indexes
 
-For each MOC file:
+For each карта file:
 
 1. **List all notes** in corresponding category
 2. **Group by topic** or date
 3. **Add missing entries**
 4. **Remove dead links**
 
-MOC structure:
+карта structure:
 ```markdown
-# MOC: Ideas
+# Карта: Идеи
 
 ## Recent
 - [[2024-12-20-new-idea]] — Brief description
@@ -97,8 +97,8 @@ Format: Telegram HTML
 
 <b>📊 Статистика:</b>
 • Всего заметок: {N}
-• В thoughts/: {M}
-• В daily/: {K}
+• В мысли/: {M}
+• В дневник/: {K}
 
 <b>🔗 Связность:</b>
 • Связанных: {connected}%
@@ -113,7 +113,7 @@ Format: Telegram HTML
 {for each duplicate pair:}
 • {note1} ≈ {note2}
 
-<b>📑 MOC Updates:</b>
+<b>📑 Карта Updates:</b>
 • {moc_name}: +{added} / -{removed}
 
 <b>💡 Рекомендации:</b>
@@ -125,7 +125,7 @@ Format: Telegram HTML
 If enabled:
 
 1. **Add backlinks** to orphan notes
-2. **Update MOC** with new entries
+2. **Update карта** with new entries
 3. **Merge duplicates** (with confirmation)
 
 ## Connection Quality Score
@@ -141,14 +141,14 @@ Score = (Notes with 2+ links / Total Notes) × 100
 | 40-59% | Needs work |
 | <40% | Fragmented |
 
-## MOC Categories
+## Карта Categories
 
-| MOC | Covers |
-|-----|--------|
-| MOC-ideas.md | thoughts/ideas/ |
-| MOC-learnings.md | thoughts/learnings/ |
-| MOC-projects.md | thoughts/projects/ |
-| MOC-reflections.md | thoughts/reflections/ |
+| Карта | Covers |
+|-------|--------|
+| карта-идеи.md | мысли/идеи/ |
+| карта-находки.md | мысли/находки/ |
+| карта-проекты.md | мысли/проекты/ |
+| карта-рефлексии.md | мысли/рефлексии/ |
 
 ## Link Discovery Strategies
 

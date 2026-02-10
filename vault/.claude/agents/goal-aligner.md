@@ -18,10 +18,10 @@ Ensures tasks and goals stay in sync.
 ### Step 1: Load All Goals
 
 ```
-Read goals/0-vision-3y.md → Life areas
-Read goals/1-yearly-2025.md → Yearly goals
-Read goals/2-monthly.md → Monthly priorities
-Read goals/3-weekly.md → ONE Big Thing
+Read цели/0-видение-3г.md → Life areas
+Read цели/1-год-2026.md → Yearly goals
+Read цели/2-месяц.md → Monthly priorities
+Read цели/3-неделя.md → ONE Big Thing
 ```
 
 Extract goal keywords for matching.

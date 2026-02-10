@@ -8,11 +8,11 @@ Build connections between notes to create a knowledge graph.
 
 ### Step 1: Search for Related Notes
 
-Search thoughts/ for related content:
+Search мысли/ for related content:
 
 ```
-Grep "keyword1" in thoughts/**/*.md
-Grep "keyword2" in thoughts/**/*.md
+Grep "keyword1" in мысли/**/*.md
+Grep "keyword2" in мысли/**/*.md
 ```
 
 Keywords to search:
@@ -25,11 +25,11 @@ Keywords to search:
 Read relevant MOC files:
 
 ```
-MOC/
-├── MOC-ideas.md
-├── MOC-projects.md
-├── MOC-learnings.md
-└── MOC-reflections.md
+карта/
+├── карта-ideas.md
+├── карта-projects.md
+├── карта-learnings.md
+└── карта-reflections.md
 ```
 
 Find related entries.
@@ -39,7 +39,7 @@ Find related entries.
 Check if thought relates to goals:
 
 ```
-Read goals/1-yearly-2025.md
+Read цели/1-год-2026.md
 Find matching goal areas
 ```
 
@@ -50,8 +50,8 @@ In the thought file, add:
 **In frontmatter:**
 ```yaml
 related:
-  - "[[thoughts/ideas/2024-12-15-voice-agents.md]]"
-  - "[[goals/1-yearly-2025#AI Development]]"
+  - "[[мысли/ideas/2024-12-15-voice-agents.md]]"
+  - "[[цели/1-год-2026#AI Development]]"
 ```
 
 **In content (inline):**
@@ -75,12 +75,12 @@ Add new note to appropriate MOC:
 # MOC: Ideas
 
 ## Recent
-- [[thoughts/ideas/2024-12-20-new-idea.md]] — Brief description
+- [[мысли/ideas/2024-12-20-new-idea.md]] — Brief description
 
 ## By Topic
 ### AI & Voice
-- [[thoughts/ideas/2024-12-20-new-idea.md]]
-- [[thoughts/ideas/2024-12-15-voice-agents.md]]
+- [[мысли/ideas/2024-12-20-new-idea.md]]
+- [[мысли/ideas/2024-12-15-voice-agents.md]]
 ```
 
 ### Step 6: Add Backlinks
@@ -99,8 +99,8 @@ In related notes, add backlink to new note if highly relevant.
 
 ### Link to Goals
 ```markdown
-[[goals/1-yearly-2025#Career & Business]]
-[[goals/3-weekly]] — ONE Big Thing
+[[цели/1-год-2026#Career & Business]]
+[[цели/3-неделя]] — ONE Big Thing
 ```
 
 ## Report Section
@@ -119,26 +119,26 @@ Track new links created:
 New thought: "Новый инструмент X можно использовать для проекта Y"
 
 1. **Search:**
-   - Grep "keyword" in thoughts/ → finds related notes
-   - Grep "tool" in thoughts/ → no results
+   - Grep "keyword" in мысли/ → finds related notes
+   - Grep "tool" in мысли/ → no results
 
 2. **Check MOC:**
-   - MOC-learnings.md has relevant section
+   - карта-learnings.md has relevant section
 
 3. **Goals:**
-   - 1-yearly-2025.md has matching goal
+   - 1-год-2026.md has matching goal
 
 4. **Create links:**
    ```yaml
    related:
-     - "[[thoughts/ideas/related-note.md]]"
-     - "[[goals/1-yearly-2025#Your Goal]]"
+     - "[[мысли/ideas/related-note.md]]"
+     - "[[цели/1-год-2026#Your Goal]]"
    ```
 
-5. **Update MOC-learnings.md:**
+5. **Update карта-learnings.md:**
    ```markdown
    ### Your Category
-   - [[thoughts/learnings/2024-12-20-new-learning.md]] — Description
+   - [[мысли/learnings/2024-12-20-new-learning.md]] — Description
    ```
 
 6. **Report:**
@@ -157,5 +157,5 @@ A note is "orphan" if:
 Flag orphans for review:
 ```
 <b>⚠️ Изолированные заметки:</b>
-• [[thoughts/ideas/orphan-note.md]]
+• [[мысли/ideas/orphan-note.md]]
 ```

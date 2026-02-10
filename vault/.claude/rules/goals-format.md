@@ -1,19 +1,19 @@
 ---
-paths: "goals/**/*.md"
+paths: "цели/**/*.md"
 ---
 
 # Goals Format
 
-Rules for goal files in `goals/` folder.
+Rules for goal files in `цели/` folder.
 
 ## File Structure
 
 ```
-goals/
-├── 0-vision-3y.md   # 3-year vision by life areas
-├── 1-yearly-2025.md # Annual goals with quarterly breakdown
-├── 2-monthly.md     # Current month priorities
-└── 3-weekly.md      # This week's focus + ONE Big Thing
+цели/
+├── 0-видение-3г.md   # 3-year vision by life areas
+├── 1-год-2026.md     # Annual goals with quarterly breakdown
+├── 2-месяц.md        # Current month priorities
+└── 3-неделя.md       # This week's focus + ONE Big Thing
 ```
 
 ## Hierarchy Principle
@@ -81,7 +81,7 @@ This is read by dbrain-processor for context.
 When creating tasks, reference goals:
 
 ```markdown
-- [ ] [Task] — Связь: [[1-yearly-2025#Career]]
+- [ ] [Task] — Связь: [[1-год-2026#Career]]
 ```
 
 ## Stale Goal Warning

@@ -1,10 +1,10 @@
 ---
-paths: "daily/**/*.md"
+paths: "дневник/**/*.md"
 ---
 
 # Daily Notes Format
 
-Rules for daily capture files in `daily/` folder.
+Rules for daily capture files in `дневник/` folder.
 
 ## File Naming
 
@@ -36,7 +36,7 @@ Photos include Obsidian embed:
 
 ```markdown
 ## 14:30 [photo]
-![[attachments/2024-12-20/img-143025.jpg]]
+![[вложения/2024-12-20/img-143025.jpg]]
 
 Optional description or transcribed text from photo
 ```
@@ -49,7 +49,7 @@ When processing daily files:
 2. **Classify each entry** — task, idea, reflection, learning, project
 3. **Check for photos** — analyze with vision if present
 4. **Extract actionable items** — create tasks in Todoist
-5. **Save valuable thoughts** — move to `thoughts/` categories
+5. **Save valuable thoughts** — move to `мысли/` categories
 6. **Mark as processed** — after successful processing
 
 ## Do NOT

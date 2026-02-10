@@ -29,14 +29,14 @@ Based on user's work context (see [ABOUT.md](ABOUT.md)):
 
 **Keywords:** GPT, Claude, модель, агент, API, пайплайн, автоматизация, интеграция
 
-**→ Category:** learning или project → thoughts/
+**→ Category:** learning или project → мысли/
 
 ### Product
 Идеи, гипотезы, MVP, юнит-экономика
 
 **Keywords:** продукт, SaaS, MVP, гипотеза, монетизация, юнит-экономика, стартап
 
-**→ Category:** idea или project → thoughts/
+**→ Category:** idea или project → мысли/
 
 ### Company Ops
 Команда, процессы, автоматизация, найм, управление, финансы
@@ -52,7 +52,7 @@ Based on user's work context (see [ABOUT.md](ABOUT.md)):
 <!-- Замените [@your_channel] на ваш Telegram-канал или удалите если не нужно -->
 **Keywords:** пост, [@your_channel], LinkedIn, контент, тезис, статья
 
-**→ Category:** idea → thoughts/ideas/ или task если с дедлайном
+**→ Category:** idea → мысли/идеи/ или task если с дедлайном
 
 ---
 
@@ -115,24 +115,24 @@ For `[photo]` entries:
 | task (client) | Todoist | p1-p2 |
 | task (ops) | Todoist | p2-p3 |
 | task (content) | Todoist | p3-p4 |
-| idea | thoughts/ideas/ | — |
-| reflection | thoughts/reflections/ | — |
-| project | thoughts/projects/ | — |
-| learning | thoughts/learnings/ | — |
+| idea | мысли/идеи/ | — |
+| reflection | мысли/рефлексии/ | — |
+| project | мысли/проекты/ | — |
+| learning | мысли/находки/ | — |
 
 ---
 
 ## File Naming
 
 ```
-thoughts/{category}/{YYYY-MM-DD}-short-title.md
+мысли/{категория}/{YYYY-MM-DD}-short-title.md
 ```
 
 Examples:
 ```
-thoughts/ideas/2024-12-16-saas-pricing-model.md
-thoughts/projects/2024-12-16-ai-agents-pipeline.md
-thoughts/learnings/2024-12-16-claude-mcp-setup.md
+мысли/идеи/2024-12-16-saas-pricing-model.md
+мысли/проекты/2024-12-16-ai-agents-pipeline.md
+мысли/находки/2024-12-16-claude-mcp-setup.md
 ```
 
 ---
@@ -180,8 +180,14 @@ tags: [tag1, tag2]
 
 After creating thought file, add link to:
 ```
-MOC/MOC-{category}s.md
+карта/карта-{категория}.md
 ```
+
+Mapping:
+- ideas → карта/карта-идеи.md
+- projects → карта/карта-проекты.md
+- learnings → карта/карта-находки.md
+- reflections → карта/карта-рефлексии.md
 
 Group by domain when relevant:
 ```markdown
