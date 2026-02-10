@@ -227,7 +227,7 @@ Save: `Ctrl+O`, `Enter`, `Ctrl+X`
 ```bash
 cd ~/projects/agent-second-brain
 
-rm -rf vault/daily/*
+rm -rf vault/дневник/*
 rm -rf vault/thoughts/ideas/*
 rm -rf vault/thoughts/projects/*
 rm -rf vault/thoughts/learnings/*
