@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/мысли/находки/2026-02-10-hr-bot-market-positioning.md",
+                "file": "vault/дневник/2026-02-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-10-hr-bot-market-positioning"
+              "title": "2026-02-11"
             }
           }
         ],
@@ -223,12 +223,13 @@
   },
   "active": "ca28b96a0f7465f2",
   "lastOpenFiles": [
+    "vault/карта/карта-находки.md",
+    "vault/карта/карта-идеи.md",
+    "vault/мысли/находки/2026-02-10-hr-bot-market-positioning.md",
     "vault/мысли/находки/2026-02-10-voice-transcript-processing-techniques.md",
     "vault/мысли/находки/2026-02-11-ai-agent-iron-rules.md",
     "vault/мысли/находки/2026-02-11-outline-proxy-setup.md",
     "vault/blog/2025-01-10-vibe-coding-guide.md",
-    "vault/карта/карта-находки.md",
-    "vault/карта/карта-идеи.md",
     "vault/вложения/2026-02-09/img-183101.jpg",
     "vault/вложения/2026-02-09/img-182543.jpg",
     "vault/вложения/2026-02-09/img-181155.jpg",
@@ -250,7 +251,6 @@
     "vault/вложения/2026-02-11",
     "vault/мысли/идеи/2026-02-10-multiagent-ai-ecosystem.md",
     "vault/мысли/проекты/2026-02-10-calendar-dispatcher-strategy.md",
-    "vault/мысли/находки/2026-02-10-hr-bot-market-positioning.md",
     "vault/мысли/находки/2026-02-09-roo-code-modes.md",
     "vault/мысли/находки/2026-02-09-claude-obsidian-analysis.md",
     "vault/мысли/находки/2026-02-08-openclaw-alternatives.md",
