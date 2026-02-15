@@ -6,6 +6,7 @@
       {
         "id": "2d12a02136dab861",
         "type": "tabs",
+        "dimension": 17.091152815013405,
         "children": [
           {
             "id": "a5c3bcc4a63a6587",
@@ -21,6 +22,23 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "000_HOME"
+            }
+          }
+        ]
+      },
+      {
+        "id": "61cd424e1b44f468",
+        "type": "tabs",
+        "dimension": 82.9088471849866,
+        "children": [
+          {
+            "id": "c6266dc413ac26ee",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -215,7 +233,7 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "a5c3bcc4a63a6587",
+  "active": "c6266dc413ac26ee",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-15 19.18.33.excalidraw.md",
     "000_HOME.md",
