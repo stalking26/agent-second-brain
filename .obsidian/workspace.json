@@ -24,17 +24,13 @@
             }
           },
           {
-            "id": "ca28b96a0f7465f2",
+            "id": "c764eaac887bdfd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vault/дневник/2026-02-10.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-02-10"
+              "title": "Новая вкладка"
             }
           }
         ],
@@ -91,7 +87,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -218,11 +215,17 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ca28b96a0f7465f2",
+  "active": "c764eaac887bdfd4",
   "lastOpenFiles": [
+    "000_HOME.md",
+    "vault/дневник/2026-02-15.md",
+    "vault/дневник/2026-02-10.md",
     "vault/дневник/2026-02-11.md",
     "vault/дневник/2026-02-12.md",
     "vault/карта/карта-находки.md",
@@ -257,9 +260,6 @@
     "vault/мысли/находки/2026-02-08-openclaw-alternatives.md",
     "vault/мысли/находки/2026-02-08-notebooklm-extensions-update.md",
     "vault/карта/карта-неделя.md",
-    "vault/дневник/2026-02-10.md",
-    "vault/дневник/2026-02-09.md",
-    "vault/дневник/2026-02-08.md",
     "vault/daily",
     "vault/шаблоны",
     "vault/цели",
