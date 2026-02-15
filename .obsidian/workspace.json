@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ba5c776bbd6b9923",
@@ -193,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,12 +210,16 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "media-extended:Open external media": false
+      "media-extended:Open external media": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
   "active": "a5c3bcc4a63a6587",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-15 19.18.33.excalidraw.md",
     "000_HOME.md",
+    "Excalidraw",
     "vault/дневник/2026-02-15.md",
     "vault/дневник/2026-02-10.md",
     "vault/дневник/2026-02-11.md",
@@ -249,7 +255,6 @@
     "vault/мысли/находки/2026-02-09-claude-obsidian-analysis.md",
     "vault/мысли/находки/2026-02-08-openclaw-alternatives.md",
     "vault/мысли/находки/2026-02-08-notebooklm-extensions-update.md",
-    "vault/карта/карта-неделя.md",
     "vault/daily",
     "vault/шаблоны",
     "vault/цели",
@@ -257,7 +262,6 @@
     "vault/мысли/находки",
     "vault/мысли/проекты",
     "vault/мысли/идеи",
-    "vault/мысли/задачи",
-    "vault/мысли"
+    "vault/мысли/задачи"
   ]
 }
