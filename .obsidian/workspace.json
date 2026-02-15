@@ -22,19 +22,8 @@
               "icon": "lucide-file",
               "title": "000_HOME"
             }
-          },
-          {
-            "id": "c764eaac887bdfd4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,10 +207,11 @@
       "bases:Создать новую базу": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "media-extended:Open external media": false
     }
   },
-  "active": "c764eaac887bdfd4",
+  "active": "a5c3bcc4a63a6587",
   "lastOpenFiles": [
     "000_HOME.md",
     "vault/дневник/2026-02-15.md",
