@@ -76,13 +76,11 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ba5c776bbd6b9923",
@@ -194,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,7 +212,7 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "a5c3bcc4a63a6587",
+  "active": "b830d257dbe75b07",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-15 19.18.33.excalidraw.md",
     "000_HOME.md",
